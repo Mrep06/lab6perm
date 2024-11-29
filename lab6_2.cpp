@@ -1,6 +1,31 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
+double deg2rad(double deg){
+    radians = deg*M_PI/180;
+    return radians;
+}
+
+double rad2deg(double rad){
+    degrees = rad*180/M_PI;
+    return degrees;
+}
+
+double findXComponent(double l1,double l2,double a1,double a2){
+    x = (l1 * cos(rad2deg(a1)))+(i2 * cos(rad2deg(a2)))
+    return x;
+}
+
+double findYComponent(double l1,double l2,double a1,double a2){
+    y = (l1 * sin(rad2deg(a1)))+(i2 * sin(rad2deg(a2)))
+    return y;
+}
+
+double pythagoras(double x,double y){
+    y = 
+    return y;
+}
+
 
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
